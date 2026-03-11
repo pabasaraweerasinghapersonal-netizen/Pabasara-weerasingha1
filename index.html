@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pabasara Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  </head>
+<body>
+
+<div class="loader-line"></div>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#home" class="logo">Pabasara <span>Studio</span></a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#results">Gallery</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <!-- Real-time clock -->
+  <div class="nav-clock" id="navClock">
+    <div class="clock-time" id="clockTime">00:00:00</div>
+    <div class="clock-tz">UTC+5:30 · Sri Lanka</div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-bg"></div>
+  <div class="grain"></div>
+  <div class="shape shape-1"></div>
+  <div class="shape shape-2"></div>
+  <div class="shape shape-3"></div>
+  <div class="hero-bg-text">PABASARA</div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">Professional Photography</p>
+    <h1>Capturing<br><em>Timeless</em><br>Moments</h1>
+    <p class="hero-sub">Capturing the most beautiful moments of life with artistic skill. Bringing your story to life through every photograph.</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn-primary"><span>Book a Session</span></a>
+      <a href="#results" class="btn-outline">
+        View Gallery
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.2"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    <span class="scroll-label">Scroll</span>
+  </div>
+
+  <!-- Camera Lens Effect -->
+  <div class="lens-wrap" id="lensWrap">
+    <span class="lens-label">Pabasara Studio · f/1.4</span>
+    <div class="lens">
+      <div class="lens-ring-outer"></div>
+      <div class="lens-glass">
+        <div class="lens-flare"></div>
+        <div class="lens-flare-2"></div>
+        <div class="lens-aperture">
+          <div class="lens-blade"></div>
+          <div class="lens-blade"></div>
+          <div class="lens-blade"></div>
+          <div class="lens-blade"></div>
+          <div class="lens-blade"></div>
+          <div class="lens-blade"></div>
+          <div class="lens-blade"></div>
+          <div class="lens-blade"></div>
+        </div>
+        <div class="lens-center"></div>
+      </div>
+    </div>
+    <!-- Floating bokeh circles -->
+    <div class="bokeh" style="width:20px;height:20px;left:10%;top:80%;animation-duration:6s;animation-delay:0s;"></div>
+    <div class="bokeh" style="width:12px;height:12px;left:25%;top:85%;animation-duration:8s;animation-delay:1s;border-color:rgba(201,169,110,0.25);"></div>
+    <div class="bokeh" style="width:30px;height:30px;left:70%;top:75%;animation-duration:7s;animation-delay:2s;"></div>
+    <div class="bokeh" style="width:8px;height:8px;left:85%;top:88%;animation-duration:5s;animation-delay:0.5s;"></div>
+    <div class="bokeh" style="width:16px;height:16px;left:50%;top:90%;animation-duration:9s;animation-delay:3s;border-color:rgba(201,169,110,0.18);"></div>
+    <div class="bokeh" style="width:24px;height:24px;left:5%;top:70%;animation-duration:10s;animation-delay:1.5s;"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-visual reveal">
+    <div class="about-img-wrap">
+      <div class="about-img-placeholder">
+        <img src="photo.jpg" alt="Pabasara" style="width:100%;height:100%;object-fit:cover;">
+      </div>
+    </div>
+    <div class="about-frame"></div>
+    <div class="about-stats">
+      <div class="stat">
+        <div class="stat-num">50+</div>
+        <div class="stat-label">Sessions</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">2+</div>
+        <div class="stat-label">Years Exp.</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">20+</div>
+        <div class="stat-label">Event</div>
+      </div>
+      </div>class="stat">
+        <div class="stat-num">100+</div>
+        <div class="stat-label">Capture Portrait</div>
+    </div>
+  </div>
+  <div class="about-text reveal reveal-delay-2">
+    <p class="section-label">About Me</p>
+    <h2 class="section-title">The Art of<br>Seeing Beauty</h2>
+    <p class="about-body">
+     Hello! I am Pabasara. As a photographer, I am happy to have the honor of capturing the important moments of your life.
+      <br><br>
+      a passionate photographer dedicated to capturing life’s most meaningful moments. Through creativity and attention to detail, I aim to turn simple moments into timeless memories that people can cherish forever. Photography for me is not just about taking pictures, it’s about telling stories through every frame.
+    </p>
+    <div class="signature">Pabasara Weerasingha</div>
+  </div>
+</section>
+
+<section id="results">
+  <div class="gallery-header">
+    <div>
+      <p class="section-label reveal"></p>
+      <h2 class="section-title reveal reveal-delay-1">Recent Work</h2>
+    </div>
+    <div class="gallery-filter reveal reveal-delay-2">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Weddings</button>
+      <button class="filter-btn">Portraits</button>
+      <button class="filter-btn">Events</button>
+    </div>
+  </div>
+  <div class="gallery-grid reveal">
+    <div class="gallery-item">
+       <img src="flower.jpg" alt="Flowers" style="width:100%;height:100%;object-fit:cover;">
+      <div class="gallery-item-overlay">
+        <div class="gallery-item-title">Capture Flowers</div>
+        <div class="gallery-item-cat">Flowers</div>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="portrait.jpg" alt="Flowers" style="width:100%;height:100%;object-fit:cover;">
+      <div class="gallery-item-overlay">
+        <div class="gallery-item-title">Floral Portrait</div>
+        <div class="gallery-item-cat">Portrait</div>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="event.jpg" alt="Flowers" style="width:100%;height:100%;object-fit:cover;">
+      <div class="gallery-item-overlay">
+        <div class="gallery-item-title">Corporate Event</div>
+        <div class="gallery-item-cat">Event</div>
+      </div>
+    </div>
+    <div class="gallery-item">
+     <img src="vehicle.jpg" alt="Flowers" style="width:100%;height:100%;object-fit:cover;">
+      <div class="gallery-item-overlay">
+        <div class="gallery-item-title">Vehicle Shoot</div>
+        <div class="gallery-item-cat">Vehicle</div>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="natural1.jpg" alt="Flowers" style="width:100%;height:100%;object-fit:cover;">
+      <div class="gallery-item-overlay">
+        <div class="gallery-item-title">Nature Capture</div>
+        <div class="gallery-item-cat">Portrait</div>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="moon.jpg" alt="Flowers" style="width:100%;height:100%;object-fit:cover;">
+      <div class="gallery-item-overlay">
+        <div class="gallery-item-title">Moon capture</div>
+        <div class="gallery-item-cat">Portrait</div>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="birthday1.jpg" alt="Flowers" style="width:100%;height:100%;object-fit:cover;">
+      <div class="gallery-item-overlay">
+        <div class="gallery-item-title">Birthday Gala</div>
+        <div class="gallery-item-cat">Event</div>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="sunset.jpg" alt="Flowers" style="width:100%;height:100%;object-fit:cover;">
+      <div class="gallery-item-overlay">
+        <div class="gallery-item-title">Sunset Capture</div>
+        <div class="gallery-item-cat">Sunset</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div style="max-width:600px">
+    <p class="section-label reveal">What I Offer</p>
+    <h2 class="section-title reveal reveal-delay-1">Photography<br>Services</h2>
+  </div>
+  <div class="services-grid reveal reveal-delay-2">
+    <div class="service-card">
+      <div class="service-num">01</div>
+      <div class="service-name">Photo Editing</div>
+      <p class="service-desc">Professional retouching, color grading, album design.</p>
+      <div class="service-price">Starting LKR 500</div>
+    </div>
+    <div class="service-card">
+      <div class="service-num">02</div>
+      <div class="service-name">Portrait Sessions</div>
+      <p class="service-desc">Individual, family, newborn Create beautiful and timeless portraits that reflect who you are. Our portrait sessions focus on natural moments, perfect lighting, and professional quality.</p>
+      <div class="service-price">Starting LKR 1,500</div>
+    </div>
+    <div class="service-card">
+      <div class="service-num">03</div>
+      <div class="service-name">Event Coverage</div>
+      <p class="service-desc">Corporate events, birthday parties, graduations. </p>
+      <div class="service-price">Starting LKR 4,000</div>
+    </div>
+    </div>
+    </div>
+    <div class="service-card">
+      <div class="service-num">04</div>
+      <div class="service-name">Vehicle shoot</div>
+      <p class="service-desc">Turn your vehicle into a masterpiece. Our professional vehicle shoots capture every angle, detail, and vibe of your car or bike with cinematic quality.</p>
+      <div class="service-price">Starting LKR 700</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="contact-info">
+      <p class="section-label reveal">Get In Touch</p>
+      <h2 class="section-title reveal reveal-delay-1">Let's Create<br><em style="font-family:'Cormorant Garamond',serif; color:var(--gold)">Together</em></h2>
+      <p class="contact-body reveal reveal-delay-2">
+       Contact us today to book your session or to get package details. We are always ready to capture your special moments.
+      </p>
+      <div class="reveal reveal-delay-2">
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-detail-label">Location</div>
+            <div class="contact-detail-val">Hambantota, Sri Lanka</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <div class="contact-detail-label">Phone</div>
+            <div class="contact-detail-val">+94 77 257 8848</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <div class="contact-detail-label">Email</div>
+            <div class="contact-detail-val"><a href="/pabasaraweerasinghapersonal@gmail.com" class="__cf_email__" data-cfemail="3159545d5d5e71415053504250435042454455585e1f5d5a">pabasaraweerasinghapersonal@gmail.com</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📷</div>
+          <div>
+            <div class="contact-detail-label">Instagram</div>
+            <div class="contact-detail-val">@pabasara_weerasinghe</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form reveal reveal-delay-3">
+      <div class="form-row">
+        <div class="form-group">
+          <label>First Name</label>
+          <input type="text" placeholder="Pabasara">
+        </div>
+        <div class="form-group">
+          <label>Last Name</label>
+          <input type="text" placeholder="Weerasingha">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" placeholder="you@example.com">
+      </div>
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" placeholder="+94 77 000 0000">
+      </div>
+      <div class="form-group">
+        <label>Service Interested</label>
+        <select>
+          <option value="">Select a service</option>
+          <option>Portrait Session</option>
+          <option>Event Coverage</option>
+          <option>Photo Editing</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Event Date</label>
+        <input type="date">
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea placeholder="Tell me about your vision..."></textarea>
+      </div>
+      <button class="btn-submit"><span>Send Inquiry →</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Pabasara <span>Studio</span></div>
+  <div class="footer-copy">© 2025 Pabasara Studio. All rights reserved.</div>
+  <div class="footer-social">
+    <a href="#" class="social-link">in</a>
+    <a href="#" class="social-link">ig</a>
+    <a href="#" class="social-link">fb</a>
+    <a href="#" class="social-link">yt</a>
+  </div>
+</footer>
+<audio id="audioEl"></audio>
+
+<!-- ══════════════════════════════════════
+     WHATSAPP BUSINESS WORKSPACE
+══════════════════════════════════════ -->
+<!-- WhatsApp FAB -->
+<button class="wa-fab" id="waFab" title="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+  <div class="wa-badge"></div>
+</button>
+
+<!-- WhatsApp Workspace Panel -->
+<div class="wa-workspace" id="waWorkspace">
+  <!-- Header -->
+  <div class="wa-header">
+    <div class="wa-avatar">📷</div>
+    <div>
+      <div class="wa-name">Pabasara Studio</div>
+      <div class="wa-status">
+        <span class="wa-status-dot"></span>
+        Business Account · Online
+      </div>
+    </div>
+    <button class="wa-close-btn" id="waClose">✕</button>
+  </div>
+
+  <!-- Quick Replies -->
+  <div class="wa-quick">
+    <button class="wa-quick-btn" data-msg="Hi! I'd like to book a wedding photography session"click open in whatsapp and DM Me 📸">💍 Wedding</button>
+    <button class="wa-quick-btn" data-msg="I need portrait photography. What are your rates?"click open in whatsapp and DM Me>🤳 Portrait</button>
+    <button class="wa-quick-btn" data-msg="Can I get your event photography package details?"click open in whatsapp and DM Me>🎊 Events</button>
+    <button class="wa-quick-btn" data-msg="Hello! Please share your pricing for photo editing services."click open in whatsapp and DM Me>✨ Editing</button>
+  </div>
+
+  <!-- Chat Messages -->
+  <div class="wa-chat" id="waChat">
+    <div class="wa-msg wa-msg-in">
+      👋 Welcome! Pabasara Studio Warm welcome to.
+      <span class="wa-msg-time">Business Hours</span>
+    </div>
+    <div class="wa-msg wa-msg-in">
+      Message us to book your photography session or to get pricing details. We’ll reply as soon as possible! "click open in whatsapp and DM Me"🙏
+      <span class="wa-msg-time">Now</span>
+    </div>
+  </div>
+
+  <!-- Typing indicator -->
+  <div style="padding: 0 16px 4px; background: #0b1014;">
+    <div class="wa-typing" id="waTyping">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <!-- Input -->
+  <div class="wa-input-area">
+    <textarea class="wa-input" id="waInput" placeholder="Type a message..." rows="1"></textarea>
+    <button class="wa-send-btn" id="waSendBtn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Open in WhatsApp -->
+  <a href="https://wa.me/94772578848?text=Hi%20Pabasara%20Studio!%20I%20found%20you%20online%20and%20would%20like%20to%20inquire%20about%20your%20photography%20services." 
+     class="wa-open-link" target="_blank" id="waOpenLink">
+    📱 Open in WhatsApp
+  </a>
+</div>
+
+<!-- ══════════════════════════════════════
+     SYSTEM MONITOR WIDGET
+══════════════════════════════════════ -->
+<div class="sys-monitor" id="sysMonitor">
+  <div class="sys-monitor-toggle" id="sysToggle">
+    <span class="sys-monitor-label">
+      <span class="sys-live-dot"></span> System
+    </span>
+    <span class="sys-chevron">▾</span>
+  </div>
+  <div class="sys-monitor-panel">
+    <div class="sys-row">
+      <div class="sys-row-head">
+        <span class="sys-row-name">CPU Usage</span>
+        <span class="sys-row-val" id="cpuVal">—</span>
+      </div>
+      <div class="sys-bar-track"><div class="sys-bar-fill cpu" id="cpuBar" style="width:0%"></div></div>
+    </div>
+    <div class="sys-row">
+      <div class="sys-row-head">
+        <span class="sys-row-name">RAM Usage</span>
+        <span class="sys-row-val" id="ramVal">—</span>
+      </div>
+      <div class="sys-bar-track"><div class="sys-bar-fill ram" id="ramBar" style="width:0%"></div></div>
+    </div>
+    <div class="sys-row">
+      <div class="sys-row-head">
+        <span class="sys-row-name">Disk Usage</span>
+        <span class="sys-row-val" id="diskVal">—</span>
+      </div>
+      <div class="sys-bar-track"><div class="sys-bar-fill disk" id="diskBar" style="width:0%"></div></div>
+    </div>
+    <div class="sys-divider"></div>
+    <div class="sys-uptime" id="sysUptime">Uptime: —</div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     MUSIC PLAYER FAB
+══════════════════════════════════════ -->
+<button class="music-fab" id="musicFab">🎵</button>
+
+<!-- Music PIN Overlay -->
+<div class="music-pin-overlay" id="musicPinOverlay">
+  <div class="music-pin-box">
+    <div class="pin-icon">🔒</div>
+    <div class="pin-title">Music Player</div>
+    <div class="pin-sub">Enter your PIN to access</div>
+    <div class="pin-dots" id="pinDots">
+      <span></span><span></span><span></span><span></span>
+    </div>
+    <div class="pin-pad">
+      <button class="pin-key" data-k="1">1</button>
+      <button class="pin-key" data-k="2">2</button>
+      <button class="pin-key" data-k="3">3</button>
+      <button class="pin-key" data-k="4">4</button>
+      <button class="pin-key" data-k="5">5</button>
+      <button class="pin-key" data-k="6">6</button>
+      <button class="pin-key" data-k="7">7</button>
+      <button class="pin-key" data-k="8">8</button>
+      <button class="pin-key" data-k="9">9</button>
+      <button class="pin-key pin-clear" data-k="clear">⌫</button>
+      <button class="pin-key" data-k="0">0</button>
+      <button class="pin-key pin-enter" data-k="enter">✓</button>
+    </div>
+    <div class="pin-error" id="pinError"></div>
+    <div class="pin-hint">World Luckiest Number(4+2=?)(5+4=?) 
+      Repeat 2x time that answer same
+
+    </div>
+    <button class="pin-close" id="pinClose">✕ Cancel</button>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     MUSIC PLAYER BAR
+══════════════════════════════════════ -->
+<div class="music-bar" id="musicBar">
+  <!-- Song info -->
+  <div class="music-info">
+    <div class="music-thumb" id="musicThumb">🎵</div>
+    <div>
+      <div class="music-title" id="musicTitle">No Song Loaded</div>
+      <div class="music-artist" id="musicArtist">Upload a song to play</div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <div class="music-controls">
+    <button class="mc-btn" id="shuffleBtn" title="Shuffle">⇄</button>
+    <button class="mc-btn" id="prevBtn" title="Previous">⏮</button>
+    <button class="mc-btn play-btn" id="playBtn" title="Play/Pause">▶</button>
+    <button class="mc-btn" id="nextBtn" title="Next">⏭</button>
+    <button class="mc-btn" id="repeatBtn" title="Repeat">↻</button>
+  </div>
+
+  <!-- Progress -->
+  <div class="music-progress">
+    <span class="music-time" id="curTime">0:00</span>
+    <div class="progress-track" id="progressTrack">
+      <div class="progress-fill" id="progressFill" style="width:0%"></div>
+    </div>
+    <span class="music-time" id="durTime">0:00</span>
+  </div>
+
+  <!-- Volume -->
+  <div class="music-volume">
+    <span class="vol-icon" id="volIcon">🔊</span>
+    <div class="vol-track" id="volTrack">
+      <div class="vol-fill" id="volFill"></div>
+    </div>
+  </div>
+
+  <!-- Upload + Playlist -->
+  <button class="music-upload-btn" id="uploadBtn">+ Add Song</button>
+  <input type="file" class="music-upload-input" id="musicInput" accept="audio/*" multiple>
+  <button class="mc-btn" id="playlistBtn" title="Playlist">☰</button>
+</div>
+
+<!-- Playlist Panel -->
+<div class="playlist-panel" id="playlistPanel">
+  <div class="playlist-header">
+    <span>Playlist</span>
+    <span class="playlist-count" id="playlistCount">0 songs</span>
+  </div>
+  <div id="playlistItems"></div>
+</div>
+
+<!-- Hidden audio element -->
+<audio id="audioEl"></audio>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>  <script src="script.js"></script>
+
+</body>
+</html>
